@@ -9,6 +9,8 @@ var data = {};
 
 data.led1 = 200;
 data.led2 = 300;
+data.led3 = 150;
+
 data.message = "Hi, Good Morning";
 
 exports.index = function(req, res){
