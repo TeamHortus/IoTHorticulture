@@ -7,8 +7,9 @@ var data = {};
 
 //data.key = value;
 
-data.led1 = 200;
-data.led2 = 300;
+data.led1 = 100;
+data.led2 = 150;
+data.led3 = 200;
 
 exports.index = function(req, res){
   res.json(data);
